@@ -11,7 +11,7 @@ Starting on a random article on wikipedia, it clicks on the first link, as long 
 
 In order to prevent click through loops within similar topics (which the first link usually seems to lead to), the previously visited links are tracked. If the first link has already been visited, the program skips onto the next link.
 
-> :warning: Due to the simplicity of the program, it will probably not find very specific goal pages, as the first link usually leads to a more general topic.
+> :warning: Due to the simplicity of the program, it will probably not find very specific goal pages, as the first link usually leads to a more general topic. Also, the search would be more efficient and much shorter if you could search the page. This was not the goal of the project, however.
 
 [^1]: Used to implement [Wiki Game rules](https://en.wikipedia.org/wiki/Wikipedia:Wiki_Game#The_Don'ts): Cursive links tend to be links to external sources or outside of page source. Braces usually contain dates.
 
