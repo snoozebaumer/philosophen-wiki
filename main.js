@@ -139,7 +139,7 @@ async function isValidLink(link, linkHrefText, visitedLinks) {
             clickCount++;
 
             if ((await isGoalPage(await driver.getTitle()))) {
-                console.log('Reached the ' + GOAL +  ' page in ' + clickCount + ' clicks. Exiting.');
+                console.log('Reached the ' + GOAL +  ' page from \"' + startPage +'\" in ' + clickCount + ' clicks. Exiting.');
                 break;
             }
 
